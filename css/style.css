@@ -9,7 +9,7 @@ body{
     font-weight: 500;
     margin: 0;
 }
-.globalNav {
+.global{
     background: #fff;
     display: block;
     width: 100%;
@@ -17,7 +17,10 @@ body{
     position: relative;
     z-index: 999;
 }
-.globalNav .container-lg, .globalNav .hero-main {
+.pagelogo{
+
+}
+.global .container-lg, .global .hero-main {
     height: 100%;
 }
 .container-lg, .container-md, .hero-main {
@@ -26,25 +29,46 @@ body{
     position: relative;
     z-index: 5;
 }
-.container-lg, .hero-main {
-    max-width: 1250px;
-    width: 100%;
-}
-.flex-justify, .justify-between {
-    justify-content: space-between;
-}
-.flex-justify {
-    display: flex;
-}
-.flex-justify-left {
-    display: flex;
-    justify-content: left;
-}
 .logo{
     width: 200px;
     top: 25px;
     position: relative;
     z-index: 9999;
+}
+.container-lg, .hero-main {
+    max-width: 1250px;
+    width: 100%;
+}
+.homelogo{
+
+}
+.global .menu{
+    align-items: center;
+    display: flex;
+
+}
+.global .menu .menu-inner{
+    position: relative;
+    display: flex;
+    justify-items: flex-start;
+    margin-left: 1em;
+
+}
+.nav-group{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1.2em 0.8em 1.2em 1.4em;
+    position: relative;
+    cursor: pointer;
+}
+.hide-mobile{
+
+}
+.nav-group-title{
+
+} .nav-group-title-children {
+
 }
 a{
     text-decoration: none;
@@ -54,11 +78,6 @@ a{
 }
 * {
     box-sizing: inherit;
-}
-.flex{
-    display: flex;
-    width: 100%;
-    flex: 1;
 }
 .anaconda_logo_circle {
     display: inline-block;
@@ -70,31 +89,6 @@ a{
 .anaconda_logo_word {
     display: inline;
 }
-.globalNav .menu-burger {
-    display: none;
-    position: absolute;
-    right: 1.3em;
-    top: 1em;
-    padding: 0.25em;
-    width: 50px;
-    height: 50px;
-    background: #0b2227;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-    color: #fff;
-    border-radius: 25em;
-    z-index: 999999;
-}
-.hamburger-icon {
-    width: 60px;
-    height: 45px;
-    position: relative;
-    transform: rotate(0deg) scale(.45);
-    transition: .5s ease-in-out;
-    cursor: pointer;
-}
 .hidden, .invisible {
     opacity: 0;
 }
@@ -102,38 +96,12 @@ a{
     display: none;
     visibility: hidden;
 }
-.globalNav .menu {
-    align-items: center;
-    display: flex;
-}
-.globalNav .menu .menu-inner {
-    position: relative;
-    display: flex;
-    justify-items: flex-start;
-    margin-left: 1em;
-}
-.globalNav .nav-group {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 1.2em 0.8em 1.2em 1.4em;
-    position: relative;
-    cursor: pointer;
-}
 .globalNav .nav-group-title {
     color: #0b2227;
     border-bottom: 5px solid transparent;
     padding-bottom: 5px;
     position: relative;
     transition: all .2s;
-}
-.flex-center {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
 }
 .button-ui-new {
     cursor: pointer;
@@ -296,23 +264,4 @@ h4, h5 {
     width: 100%;
     padding: 1em 0;
     z-index: 999999999;
-}
-.container-lg, .container-md, .hero-main {
-    margin: 0 auto;
-    padding: 0 1em;
-    position: relative;
-    z-index: 5;
-}
-.container-lg, .hero-main {
-    max-width: 1250px;
-    width: 100%;
-}
-.flex-justify, .justify-between {
-    justify-content: space-between;
-}
-.flex-justify {
-    display: flex;
-}
-.align-center, .flex-center {
-    align-items: center;
 }
