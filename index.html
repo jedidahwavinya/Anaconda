@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,8 +14,8 @@
                 <div class="logo">
                     <a aria-label="Homepage" href="/">
                         <div class="homelogo">
-                            <img src="images/homepagelogo.png">
-                        </div>
+                            <img class="anacondalogo" src="images/homepagelogo.png">
+                        </div>                        
                     </a>
                 </div>
                 <div class="menu-burger">
@@ -30,7 +31,9 @@
                     <div class="menu-inner">
                         <div class="nav-group">
                             <a href="#" class="nav-group-title nav-group-title-children ">Products
-                                <span class="icon icon-triangle nav-triangle"><svg><use xlink:href="#icon-triangle"/></svg></span>
+                                <span class="icon icon-triangle nav-triangle">
+                                    <svg><use xlink:href="#icon-triangle"/></svg>
+                                </span>
                             </a>
                             <div class="nav-submenu nav-submenu-lg">
                                 <a class="" href="https://www.anaconda.com/products/individual">
@@ -121,12 +124,22 @@
                         <div class="nav-group hide-mobile">
                             <a href="/blog" class="nav-group-title ">Blog</a>
                         </div>
-        
-                    </div>
-                    <div class="hide-device">
-                        <div class="flex-center">
-                            <span class="button-ui-new button-small js-getStarted-button" style="position: relative; top: -5px">Get Started</span>
-                        </div>
+                        <div class="nav-group">
+                            <a href="javascript:void(0)" class="nav-group-title nav-group-title-children sectionClass ">
+                                Company
+                                    <span class="icon icon-triangle nav-triangle">
+                                        <svg><use xlink:href="#icon-triangle"></use></svg>
+                                    </span>
+                            </a>
+                            <div class="nav-submenu nav-submenu-small nav-submenu-last">
+                                <a href="/about-us">About Us</a>
+                                <a href="/leadership">Leadership</a>
+                                <a href="/press">Press</a>
+                                <a href="/contact">Contact Us</a>
+                                <a href="/careers">Careers</a>
+                                <a href="/anaconda-dividend">Dividend Program</a>
+                            </div>
+                        </div>                        
                     </div>
                 </nav>
             </div>
@@ -138,204 +151,323 @@
                 
         </div>
     </header>
-    <section class="hero-main flex-wrap">
-        <div class="col-md-12 content-copy text-center mt-0 pb-6">
-            <div class="z-100">
-                <h1 class="pb-0" style="position: relative;margin-bottom:1.5em;">Data science technology for<br>
-                    <span class="headline-animated" style="opacity: 0; transform: translate(0px, 15px);">groundbreaking research. </span>
-                    <span class="headline-animated" style="opacity: 0; transform: translate(0px, 15px);">a competitive edge. </span>
-                    <span class="headline-animated" style="opacity: 0; transform: translate(0px, 15px);">a better world. </span>
-                    <span class="headline-animated" style="opacity: 1; transform: translate(0px, 0px);">human sensemaking. </span>
-                </h1>
-                <div class="hero-subhead text-lg container-sm mt-2 leading-normal" style="font-weight: 300;">
-                    <p>A movement that brings together millions of data science practitioners, data-driven enterprises, and the open source community.</p>
-                </div>
-                <div class="gsbutton">
-                    <span id="getStartedButton" class="btn js-getStarted-button">Get Started</span>
-                </div>
-            </div>
-        </div>
-        <div class="hero-photos pt-3">
-            <div class="inner">
-                <img src="images/photo1.webp">
-                <img src="images/photo2.webp">
-                <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_17.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327105&amp;s=7a3b1c183ed9fd54cd83c6966f4f351b" sizes="100vw" srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_17.jpg?w=240&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327105&amp;s=a2fe0a2c940d0faaa7172d871ad76f97 240w,https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_17.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327105&amp;s=7a3b1c183ed9fd54cd83c6966f4f351b 160w" alt="Sq head 17" style="opacity: 1; transform: scale(1.1, 1.1);">
-                <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_16.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327105&amp;s=33b0897b13a29c5089ac6eabc2c4df1f" sizes="100vw" srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_16.jpg?w=240&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327105&amp;s=2b9ed53e2a0f3d94203a8646415f37d5 240w,https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_16.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327105&amp;s=33b0897b13a29c5089ac6eabc2c4df1f 160w" alt="Sq head 16" style="opacity: 1; transform: scale(1.1, 1.1);">
-                <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_15.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327105&amp;s=5809765841632a33c8c49b635048bfdd" sizes="100vw" srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_15.jpg?w=240&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327105&amp;s=a548425b6872e1b22dc74b642226d294 240w,https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_15.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327105&amp;s=5809765841632a33c8c49b635048bfdd 160w" alt="Sq head 15" style="opacity: 1; transform: scale(1.1, 1.1);">
-                <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_14.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327104&amp;s=765b0c5918070a0c7c00a01ea5d37335" sizes="100vw" srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_14.jpg?w=240&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327104&amp;s=511533291b9b1649a3891e5204404803 240w,https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_14.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327104&amp;s=765b0c5918070a0c7c00a01ea5d37335 160w" alt="Sq head 14" style="opacity: 1; transform: scale(1.1, 1.1);">
-                <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_13.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327104&amp;s=3278d35503b165b2414a34ad8a93698b" sizes="100vw" srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_13.jpg?w=240&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327104&amp;s=d3c9f976f3e81faa3b1816c3b75a5245 240w,https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_13.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327104&amp;s=3278d35503b165b2414a34ad8a93698b 160w" alt="Sq head 13" style="opacity: 1; transform: scale(1.1, 1.1);">
-                <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_12.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327103&amp;s=239d598182a1ff7ddfed6c18b360efea" sizes="100vw" srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_12.jpg?w=240&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327103&amp;s=4f746b22ecc69ea3b100e63aeb154f39 240w,https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_12.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327103&amp;s=239d598182a1ff7ddfed6c18b360efea 160w" alt="Sq head 12" style="opacity: 1; transform: scale(1.1, 1.1);">
-                <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_11.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327104&amp;s=de4f9e73c95840cbf876169520f5d71e" sizes="100vw" srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_11.jpg?w=240&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327104&amp;s=8596fecc16dcf20bb5db2225ff1a384f 240w,https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_11.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327104&amp;s=de4f9e73c95840cbf876169520f5d71e 160w" alt="Sq head 11" style="opacity: 1; transform: scale(1.1, 1.1);">
-                <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_10.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327104&amp;s=81c422683e4f4ac2e6fecdfa5e03451c" sizes="100vw" srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_10.jpg?w=240&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327104&amp;s=e10b0db58d6e8e555c0cdf566f517261 240w,https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_10.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327104&amp;s=81c422683e4f4ac2e6fecdfa5e03451c 160w" alt="Sq head 10" style="opacity: 1; transform: scale(1.1, 1.1);">
-                <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_9.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327112&amp;s=94fbf8c8598b19342375d5478f394b94" sizes="100vw" srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_9.jpg?w=240&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327112&amp;s=3b3f2d758d6796389ab1a4a2a89d5f14 240w,https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_9.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327112&amp;s=94fbf8c8598b19342375d5478f394b94 160w" alt="Sq head 9" style="opacity: 1; transform: scale(1.1, 1.1);">
-                <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_8.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327112&amp;s=58e2d636eebd51939c48e8e7aae935d9" sizes="100vw" srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_8.jpg?w=240&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327112&amp;s=c94947ac8a2ebe9b3d7087d565d635a8 240w,https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_8.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327112&amp;s=58e2d636eebd51939c48e8e7aae935d9 160w" alt="Sq head 8" style="opacity: 1; transform: scale(1.1, 1.1);">
-                <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_7.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327112&amp;s=b7f3d1a6932c653803a6ed533c44472e" sizes="100vw" srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_7.jpg?w=240&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327112&amp;s=2ab5cd78edd428a011a56db91c7feae8 240w,https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_7.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327112&amp;s=b7f3d1a6932c653803a6ed533c44472e 160w" alt="Sq head 7" style="opacity: 1; transform: scale(1.1, 1.1);">
-                <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_6.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327108&amp;s=5651cd38193246582b488e322841336d" sizes="100vw" srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_6.jpg?w=240&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327108&amp;s=4c757aabe3a75a169d4536458a1886de 240w,https://optimise2.assets-servd.host/voracious-blesbok/production/Homepage/Headshots/sq-head_6.jpg?w=160&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632327108&amp;s=5651cd38193246582b488e322841336d 160w" alt="Sq head 6" style="opacity: 1; transform: scale(1.1, 1.1);">
-            </div>
-        </div>
-    </section>
-    <section class="customer-logos mt-6 pb-2 mb-0">
-        <div class="container-lg flex-justify">
-            <div class="customer-logo logo-Cisco" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/cisco.svg);">
-            </div>
-            <div class="customer-logo logo-Pnc" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/pnc.svg);">
-            </div>
-            <div class="customer-logo logo-Hsbc" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/hsbc.svg);">
-            </div>
-            <div class="customer-logo logo-Exxon" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/exxon.svg);">
-            </div>
-            <div class="customer-logo logo-Goldman" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/goldman.svg);">
-            </div>
-            <div class="customer-logo logo-Citi" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/citi.svg);">
-            </div>
-            <a href="#">View Customers</a>
-        </div>
-    </section>
-    <section class="mt-0 pt-6 pb-6 background-alt">
-        <div class="container-md pt-2">
-            <div class="row mb-2">
-                <div class="col-md-9"><h2 class="h1 mb-0">Not just <br>point solutions. <br>
-                    <span class="green">Powerful solving</span>.
-                </h2>
-                    <div class="text-lg description">
-                        <p>Anaconda was built by data scientists, for data scientists. More than 20 million people use our technology to solve the toughest problems.</p>
+    <div class="content-wrap" data-barba="container">
+        <!-- section one starts here -->
+        <section class="hero-main flex-wrap">
+            <div class="col-md-12 content-copy text-center mt-0 pb-6">
+                <div class="z-100">
+                    <h1 class="pb-0" style="position: relative;margin-bottom:1.5em;">Data science technology for<br>
+                        <span class="headline-animated" style="opacity: 0; transform: translate(0px, 15px);">groundbreaking research. </span>
+                        <span class="headline-animated" style="opacity: 0; transform: translate(0px, 15px);">a competitive edge. </span>
+                        <span class="headline-animated" style="opacity: 0; transform: translate(0px, 15px);">a better world. </span>
+                        <span class="headline-animated" style="opacity: 1; transform: translate(0px, 0px);">human sensemaking. </span>
+                    </h1>
+                    <div class="hero-subhead text-lg container-sm mt-2 leading-normal" style="font-weight: 300;">
+                        <p>A movement that brings together millions of data science practitioners, data-driven enterprises, and the open source community.</p>
+                    </div>
+                    <div class="gsbutton">
+                        <span id="getStartedButton" class="btn js-getStarted-button">Get Started</span>
                     </div>
                 </div>
             </div>
-            <div class="row mt-5 flex-center">
-                <div class="col-md-6">
-                <ul class="list-none pa-0">
-                    <li class="mb-6" style="position: relative;">
-                        <span class="icon-emoji homepage-emoji-icon">
-                            <div"><a href="https://emojipedia.org/woman-lifting-weights/"></a>
-                            </div"><br>
-                            <h3>🏋️‍♀️</h3>
-                        </span>
-                        <div class="title">Tackle any challenge</div>
-                        <div class="description">
-                            <p>Anaconda solutions are serious technology for real data science and ML applications. Anaconda is versatile - you'll be ready to solve problems you don't even know you have yet.</p>
-                        </div>
-                    </li>
-                    <li class="mb-6" style="position: relative;">
-                        <span class="icon-emoji homepage-emoji-icon">
-                            <div"><a href="https://emojipedia.org/apple/ios-10.2/motorway/"></a></div"><br><h3>🛣️</h3>
-                        </span>
-                        <div class="title">Own your destiny</div>
-                        <div class="description"><p>Your business challenges change every day. Only open-source innovation can keep pace with your needs. Never be stuck waiting for a vendor to add a feature again.</p></div></li><li class="mb-6" style="position: relative;">
-                        <span class="icon-emoji homepage-emoji-icon"><h3>🔐</h3>
-                        </span>
-                        <div class="title">Stay safe and secure</div>
-                        <div class="description">
-                            <p>Catch vulnerabilities before they catch you. Control access to models, data, and packages. Know the who, what, when, and where of every project.</p>
-                        </div>
-                    </li>
-                </ul>
+            <div class="hero-photos pt-3">
+                <div class="inner">
+                    <img class="img:firstchild" src="images/sq-head_19.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img2nd-child" src="images/sq-head_182.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img3rd-child" src="images/sq-head_17.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img4th-child" src="images/sq-head_16.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img5th-child" src="images/sq-head_15.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img6th-child" src="images/sq-head_14.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img7th-child" src="images/sq-head_13.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img8th-child" src="images/sq-head_12.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img9th-child" src="images/sq-head_11.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img10th-child" src="images/sq-head_10.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img11th-child" src="images/sq-head_9.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img12th-child" src="images/sq-head_8.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img13th-child" src="images/sq-head_7.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
+                    <img class="img14th-child" src="images/sq-head_6.jpg" style="opacity: 1; transform: scale(1.1, 1.1);">
                 </div>
-                <div class="col-md-6 homepage-snake-container">
-                    <div class="homepage-snake-bg1" style="background-image: url('./static/icon-bend3.svg');">
+            </div>
+        </section>
+        <!-- section two starts here -->
+        <section class="customer-logos mt-6 pb-2 mb-0">
+            <div class="container-lg flex-justify">
+                <div class="customer-logo logo-Cisco" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/cisco.svg);">
+                </div>
+                <div class="customer-logo logo-Pnc" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/pnc.svg);">
+                </div>
+                <div class="customer-logo logo-Hsbc" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/hsbc.svg);">
+                </div>
+                <div class="customer-logo logo-Exxon" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/exxon.svg);">
+                </div>
+                <div class="customer-logo logo-Goldman" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/goldman.svg);">
+                </div>
+                <div class="customer-logo logo-Citi" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/citi.svg);">
+                </div>
+                <a href="#">View Customers</a>
+            </div>
+        </section>
+        <!-- section three starts here -->
+        <section class="mt-0 pt-6 pb-6 background-alt">
+            <div class="container-md pt-2">
+                <div class="row1 mb-2">
+                    <div class="col-md-9">
+                        <h2 class="h1 mb-0">Not just <br>point solutions. <br>
+                            <span class="green">Powerful solving</span>.
+                        </h2>
+                        <div class="text-lg description">
+                            <p>Anaconda was built by data scientists, for data scientists. More than 20 million people use our technology to solve the toughest problems.</p>
+                        </div>
                     </div>
-                    <div class="homepage-why-card">
-                    <h2 class="text-center mb-1">Why it matters</h2>
-                    <div class=" flex-justify pl-1 pr-1">
-                        <ul class="list-none list-check">
-                            <li class="mb-2" style="position: relative;">
-                                <div class="mb-2">Deliver on your data strategy</div>
+                </div>
+                <div class="row mt-5 flex-center">
+                    <div class="col-md-6">
+                        <ul class="list-none pa-0">
+                            <li class="mb-6" style="position: relative;">
+                                <span class="icon-emoji homepage-emoji-icon">
+                                    <div">
+                                        <a href="https://emojipedia.org/woman-lifting-weights/"></a>
+                                    </div"><br>
+                                    <h3>🏋️‍♀️</h3>
+                                </span>
+                                <div class="title">Tackle any challenge</div>
+                                <div class="description">
+                                    <p>Anaconda solutions are serious technology for real data science and ML applications. Anaconda is versatile - you'll be ready to solve problems you don't even know you have yet.</p>
+                                </div>
                             </li>
-                            <li class="mb-2" style="position: relative;">
-                                <div class="mb-2">Get to market faster</div>
-                            </li>
-                            <li class="mb-2" style="position: relative;">
-                                <div class="mb-2">Maximize flexibility and control</div>
-                            </li>
-                            <li class="mb-2" style="position: relative;">
-                                <div class="mb-2">Attract and keep the best talent</div>
+                            <li class="mb-6" style="position: relative;">
+                                <span class="icon-emoji homepage-emoji-icon">
+                                    <div">
+                                    <a href="https://emojipedia.org/apple/ios-10.2/motorway/"></a>
+                                    </div"><br>
+                                    <h3>🛣️</h3>
+                                </span>
+                                <div class="title">Own your destiny</div>
+                                <div class="description"><p>Your business challenges change every day. Only open-source innovation can keep pace with your needs. Never be stuck waiting for a vendor to add a feature again.</p></div></li><li class="mb-6" style="position: relative;">
+                                <span class="icon-emoji homepage-emoji-icon"><h3>🔐</h3>
+                                </span>
+                                <div class="title">Stay safe and secure</div>
+                                <div class="description">
+                                    <p>Catch vulnerabilities before they catch you. Control access to models, data, and packages. Know the who, what, when, and where of every project.</p>
+                                </div>
                             </li>
                         </ul>
                     </div>
+                    <div class="col-md-6 homepage-snake-container">
+                        <div class="homepage-snake-bg1" style="background-image: url('./static/icon-bend3.svg');">
+                        </div>
+                        <div class="homepage-why-card">
+                        <h2 class="text-center mb-1">Why it matters</h2>
+                        <div class=" flex-justify pl-1 pr-1">
+                            <ul class="list-none list-check">
+                                <li class="mb-2" style="position: relative;">
+                                    <div class="mb-2">Deliver on your data strategy</div>
+                                </li>
+                                <li class="mb-2" style="position: relative;">
+                                    <div class="mb-2">Get to market faster</div>
+                                </li>
+                                <li class="mb-2" style="position: relative;">
+                                    <div class="mb-2">Maximize flexibility and control</div>
+                                </li>
+                                <li class="mb-2" style="position: relative;">
+                                    <div class="mb-2">Attract and keep the best talent</div>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 text-lg description">
-                        <p>The modern world of data science is incredibly dynamic. Every day, new challenges surface - and so do incredible innovations. To win in this context, organizations need to give their teams the most versatile, powerful data science and machine learning technology so they can innovate fast - without sacrificing security and governance.</p>
-                        <p><strong> We call that powerful solving.</strong></p>
+                    <div class="row">
+                        <div class="col-md-8 text-lg description">
+                            <p>The modern world of data science is incredibly dynamic. Every day, new challenges surface - and so do incredible innovations. To win in this context, organizations need to give their teams the most versatile, powerful data science and machine learning technology so they can innovate fast - without sacrificing security and governance.</p>
+                            <p><strong> We call that powerful solving.</strong></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="pt-6 pb-6 background-dark" style="background-color:#111827">
-        <div class="container-lg">
-            <div class="mid row mymid">
-                <div class="col-md-6 pa-3 text-white mobile-order-2">
-                    <h6 class="text-white">Report</h6>
-                    <h2 class="h1 text-white">State of Data Science: <span class="yellow">On the Path to Impact</span></h2>
-                    <div class="hotfix-dark-cta-p">
-                        <p>Featuring insights from over 4,200 respondents, this year’s State of Data Science report dives into data 
-                            science industry trends such as COVID-19’s impact, popular programming languages, data literacy, and bias and explainability in 
-                            machine learning models.<br>
-                        </p>
-                    </div>
-                    <div class="mt-2">
-                        <a href="https://www.anaconda.com/state-of-data-science-2021" class="button-ui button-light" target="_blank">Get the Report 	
-                            <span class="icon icon-link-arrow cta-link-icon"><svg><use xlink:href="#icon-link-arrow"></use></svg>
+        </section>
+        <!-- section four starts here -->
+        <section class="mt-0 pt-6 pb-6 mb-3 container-lg">
+            <h2 class="h1 mb-1 pl-1">The <span class="green">data science</span> <br>platform for all</h2>
+            <div class="flex-justify flex-wrap pt-2">
+                <a class="module-card module-card-x3 module-card-tab tab-commercial-edition flex-equal" href=" https://www.anaconda.com/products/commercial-edition">
+                    <div class="flex-equal-inner">
+                        <div class="flex-equal-content">
+                            <div>
+                                <svg class="product-card-icon">
+                                    <g>
+                                        <path class="wlqlsbqgva-st0" d="M28,10.8c-9.5,0-17.2,7.7-17.2,17.2S18.5,45.2,28,45.2V28h17.2C45.2,18.5,37.5,10.8,28,10.8z"></path>
+                                        <path class="wlqlsbqgva-st1" d="M10.8,28c0-9.5,7.7-17.2,17.2-17.2S45.2,18.5,45.2,28H56C56,12.5,43.4,0,28,0C12.5,0,0,12.5,0,28   s12.6,28,28,28V45.2C18.5,45.2,10.8,37.5,10.8,28z"></path>
+                                        <g>
+                                            <path class="wlqlsbqgva-st1" d="M28,45.2c9.5,0,17.2-7.7,17.2-17.2H28C28,28,28,45.2,28,45.2z"></path>
+                                        </g>
+                                        <g>
+                                        <path class="wlqlsbqgva-st1" d="M56.1,28c0,15.5-12.6,28-28,28v5.5h33.5V28H56.1z"></path>
+                                        </g>
+                                        <path class="wlqlsbqgva-st2" d="M56.1,28H45.2c0,9.5-7.7,17.2-17.2,17.2V56C43.5,56.1,56.1,43.5,56.1,28z"></path>
+                                        </g>
+                                </svg>
+                            </div>
+                            <div class="title mb-1 mt-1"> Commercial Edition</div>
+                            <div class="description mb-1">
+                                <p>The world's most popular open-source package distribution and management experience,
+                                     optimized for commercial use and compliance with our Terms of Service.
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="module-card-cta">Learn More 	
+                                <span class="icon icon-link-arrow cta-link-icon">
+                                    <svg><use xlink:href="#icon-link-arrow"></use>
+                                    </svg>
+                                </span>
                             </span>
-                        </a>
+                        </div>
+                    </div>
+                </a>
+                <a class="module-card module-card-x3 module-card-tab tab-team-edition flex-equal" href=" https://www.anaconda.com/products/team">
+                    <div class="flex-equal-inner">
+                        <div class="flex-equal-content">
+                            <div>
+                                <svg class="product-card-icon">
+                                    <g class="dtihbqnsgw-ecb2b0db-7dee-4ba3-bee0-1a7bd63eb68c">
+                                        <g id="dtihbqnsgw-a703feea-88d6-4169-bfe4-4367f7adfb1e" data-name="Layer 1">
+                                        <path class="dtihbqnsgw-ba4cec2c-fb86-4c20-8662-e50d5d066331" d="M31.48,0A31.48,31.48,0,1,0,63,31.48,31.47,31.47,0,0,0,31.48,0Zm0,50.37A18.89,18.89,0,1,1,50.37,31.48,18.89,18.89,0,0,1,31.48,50.37Z"></path>
+                                        <rect class="dtihbqnsgw-af841246-0b11-4028-81a7-52430763070c" x="31.48" width="37.78" height="62.96"></rect>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="title mb-1 mt-1"> Team Edition</div>
+                            <div class="description mb-1">
+                                <p>Thousands of curated data science packages in an enterprise-grade repository. Ideal as you scale the use of Python and R across the data science discipline.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="module-card-cta">Learn More 	
+                                <span class="icon icon-link-arrow cta-link-icon">
+                                    <svg><use xlink:href="#icon-link-arrow"></use></svg>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <a class="module-card module-card-x3 module-card-tab tab-enterprise-edition flex-equal" href=" https://www.anaconda.com/products/enterprise">
+                    <div class="flex-equal-inner">
+                        <div class="flex-equal-content">
+                            <div>
+                                <svg class="product-card-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.87 61.66">
+                                    <g class="asiaxhfgpe-bd03f70e-0db7-4177-b12e-087725eee304">
+                                        <g id="asiaxhfgpe-b3a98612-7cc4-463c-b7f0-3ae9c2f878dc" data-name="Layer 1">
+                                            <path class="asiaxhfgpe-a845c353-39d9-4167-a5e5-10d9e5d647d0" d="M45.28,22.48a16.32,16.32,0,1,0-30.23,0A16.31,16.31,0,1,0,30.43,46.91,16.3,16.3,0,1,0,45.28,22.48ZM30.17,6.56a9.83,9.83,0,1,1-9.79,9.87v0a9.78,9.78,0,0,1,9.74-9.83Zm-13.86,42a9.83,9.83,0,1,1,9.83-9.83v0a9.84,9.84,0,0,1-9.83,9.78Zm28.24,0a9.83,9.83,0,1,1,9.83-9.83,9.84,9.84,0,0,1-9.83,9.83h0Z"></path>
+                                                <g class="asiaxhfgpe-b86fbe9d-e084-496b-ac5f-cf2dd07c92e3">
+                                                    <circle class="asiaxhfgpe-a6beb5b7-45e5-4acc-8578-5e892bf7386d" cx="30.43" cy="52.14" r="9.52"></circle>
+                                                    <circle class="asiaxhfgpe-a6beb5b7-45e5-4acc-8578-5e892bf7386d" cx="49.47" cy="20.01" r="9.52"></circle>
+                                                    <circle class="asiaxhfgpe-a6beb5b7-45e5-4acc-8578-5e892bf7386d" cx="10.85" cy="20.01" r="9.52"></circle>
+                                                </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="title mb-1 mt-1"> Enterprise Edition</div>
+                            <div class="description mb-1">
+                                <p>Our enterprise platform is a comprehensive foundation for any organization that wants to use data science and machine learning to make better decisions and build differentiating products.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="module-card-cta">Learn More 	
+                                <span class="icon icon-link-arrow cta-link-icon">
+                                    <svg><use xlink:href="#icon-link-arrow"></use></svg>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!-- section five starts here -->
+        <section class="pt-6 pb-6 background-dark" style="background-color:#111827">
+            <div class="container-lg">
+                <div class="mid row mymid">
+                    <div class="col-md-6 pa-3 text-white mobile-order-2">
+                        <h6 class="text-white">Report</h6>
+                        <h2 class="h1 text-white">State of Data Science: <span class="yellow">On the Path to Impact</span></h2>
+                        <div class="hotfix-dark-cta-p">
+                            <p>Featuring insights from over 4,200 respondents, this year’s State of Data Science report dives into data 
+                                science industry trends such as COVID-19’s impact, popular programming languages, data literacy, and bias and explainability in 
+                                machine learning models.<br>
+                            </p>
+                        </div>
+                        <div class="mt-2">
+                            <a href="https://www.anaconda.com/state-of-data-science-2021" class="button-ui button-light" target="_blank">Get the Report 	
+                                <span class="icon icon-link-arrow cta-link-icon">
+                                    <svg><use xlink:href="#icon-link-arrow"></use></svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mobile-order-1">
+                        <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/SODS-Cover-Art.png?w=650&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632326947&amp;s=1683e4e9cb517c2095cc36a2b08853ac" sizes="100vw" 
+                        srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/SODS-Cover-Art.png?w=700&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632326947&amp;s=cc1925517f8ae39aba6951b6cfd75229 700w,
+                        https://optimise2.assets-servd.host/voracious-blesbok/production/SODS-Cover-Art.png?w=650&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632326947&amp;s=1683e4e9cb517c2095cc36a2b08853ac 
+                        650w,https://optimise2.assets-servd.host/voracious-blesbok/production/SODS-Cover-Art.png?w=400&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632326947&amp;s=454895ebbed753a2443122788f5113ee 400w" alt="SODS Cover Art">
                     </div>
                 </div>
-                <div class="col-md-6 mobile-order-1">
-                    <img src="https://optimise2.assets-servd.host/voracious-blesbok/production/SODS-Cover-Art.png?w=650&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632326947&amp;s=1683e4e9cb517c2095cc36a2b08853ac" sizes="100vw" 
-                    srcset="https://optimise2.assets-servd.host/voracious-blesbok/production/SODS-Cover-Art.png?w=700&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632326947&amp;s=cc1925517f8ae39aba6951b6cfd75229 700w,
-                    https://optimise2.assets-servd.host/voracious-blesbok/production/SODS-Cover-Art.png?w=650&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632326947&amp;s=1683e4e9cb517c2095cc36a2b08853ac 
-                    650w,https://optimise2.assets-servd.host/voracious-blesbok/production/SODS-Cover-Art.png?w=400&amp;q=80&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1632326947&amp;s=454895ebbed753a2443122788f5113ee 400w" alt="SODS Cover Art">
+            </div>
+        </section>
+        <!-- section six starts here -->
+        <section class="mt-0 pt-6 pb-6 mb-3  background-alt text-center">
+            <div class="container-lg pb-2">
+                <h2 class=" mb-1">Recent Articles</h2>
+                <div class="undermid mb-4">
+                    <a href="https://www.anaconda.com/blog/an-update-on-the-apache-log4j-vulnerability" class="module-card module-card-x3 module-card-pa-0">
+                        <div class="module-card-thumbnail" style="background-image:url(https://optimise2.assets-servd.host/voracious-blesbok/production/Blog/An-update-on-the-Apache-Log4j-vulnerability.jpg?w=450&amp;auto=compress%2Cformat&amp;fit=clip&amp;dm=1639432632&amp;s=85f91e780c973fbe64b3ab078f335933">
+                        </div>
+                        <div class="pt-2 text-left pb-2 pl-2 pr-2 ">
+                            <h6 class="">News</h6>
+                            <div class="title text-lg font-light">An Update on the Apache Log4j Vulnerability
+                            </div>
+                            <div class="module-card-cta mt-1">Read More 
+                                <span class="icon"><svg><use xlink:href="#icon-link-arrow"></use></svg></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.anaconda.com/blog/5-expert-predictions-for-ai-ml-and-data-science-in-2022" class="module-card module-card-x3 module-card-pa-0">
+                        <div class="module-card-thumbnail" >
+                        </div>
+                        <div class="pt-2 text-left pb-2 pl-2 pr-2 ">
+                            <h6 class="">Anaconda Perspectives</h6>
+                            <div class="title text-lg font-light">5 Expert Predictions for AI/ML and Data Science in 2022
+                            </div>
+                            <div class="module-card-cta mt-1">Read More 
+                                <span class="icon"><svg><use xlink:href="#icon-link-arrow"></use></svg></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.anaconda.com/blog/what-does-it-mean-to-be-a-data-scientist" class="module-card module-card-x3 module-card-pa-0">
+                        <div class="module-card-thumbnail"></div>
+                        <div class="pt-2 text-left pb-2 pl-2 pr-2 ">
+                            <h6 class="">Anaconda Perspectives</h6>
+                            <div class="title text-lg font-light">What Does It Mean to Be a Data Scientist?
+                            </div>
+                            <div class="module-card-cta mt-1">Read More 
+                                <span class="icon"><svg><use xlink:href="#icon-link-arrow"></use></svg></span>
+                            </div>
+                        </div>
+                    </a>
                 </div>
+                <a href="/blog" class="btn mt-2">View More Articles</a>
             </div>
-        </div>
-    </section>
-    <section class="mt-0 pt-6 pb-6 mb-3  background-alt text-center">
-        <div class="container-lg pb-2">
-            <h2 class=" mb-1">Recent Articles</h2>
-            <div class="undermid mb-4">
-                <a href="https://www.anaconda.com/blog/an-update-on-the-apache-log4j-vulnerability" class="module-card module-card-x3 module-card-pa-0">
-                    <div class="module-card-thumbnail" style="background-image:url(https://optimise2.assets-servd.host/voracious-blesbok/production/Blog/An-update-on-the-Apache-Log4j-vulnerability.jpg?w=450&amp;auto=compress%2Cformat&amp;fit=clip&amp;dm=1639432632&amp;s=85f91e780c973fbe64b3ab078f335933">
-                    </div>
-                    <div class="pt-2 text-left pb-2 pl-2 pr-2 ">
-                        <h6 class="">News</h6>
-                        <div class="title text-lg font-light" style="min-height: 100px;">An Update on the Apache Log4j Vulnerability
-                        </div>
-                        <div class="module-card-cta mt-1">Read More 
-                            <span class="icon"><svg><use xlink:href="#icon-link-arrow"></use></svg></span>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://www.anaconda.com/blog/5-expert-predictions-for-ai-ml-and-data-science-in-2022" class="module-card module-card-x3 module-card-pa-0">
-                    <div class="module-card-thumbnail" style="background-image:url(https://optimise2.assets-servd.host/voracious-blesbok/production/Blog/predictions-for-ai-ml-data-science.jpg?w=450&amp;auto=compress%2Cformat&amp;fit=clip&amp;dm=1639172766&amp;s=faf3c8e83994b85ebb0a67b86f604eb8">
-                    </div>
-                    <div class="pt-2 text-left pb-2 pl-2 pr-2 ">
-                        <h6 class="">Anaconda Perspectives</h6>
-                        <div class="title text-lg font-light">5 Expert Predictions for AI/ML and Data Science in 2022
-                        </div>
-                        <div class="module-card-cta mt-1">Read More 
-                            <span class="icon"><svg><use xlink:href="#icon-link-arrow"></use></svg></span>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://www.anaconda.com/blog/what-does-it-mean-to-be-a-data-scientist" class="module-card module-card-x3 module-card-pa-0">
-                    <div class="module-card-thumbnail" style="background-image:url(https://optimise2.assets-servd.host/voracious-blesbok/production/Blog/iStock-1327735623.jpg?w=450&amp;auto=compress%2Cformat&amp;fit=clip&amp;dm=1638982873&amp;s=75c770d07e8084111879c0cea6a9f8bb">
-                    </div>
-                    <div class="pt-2 text-left pb-2 pl-2 pr-2 ">
-                        <h6 class="">Anaconda Perspectives</h6>
-                        <div class="title text-lg font-light">What Does It Mean to Be a Data Scientist?
-                        </div>
-                        <div class="module-card-cta mt-1">Read More 
-                            <span class="icon"><svg><use xlink:href="#icon-link-arrow"></use></svg></span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <a href="/blog" class="btn mt-2">View More Articles</a>
-        </div>
-    </section>
-
+        </section>
+        <!-- section seven starts here -->
+        <section class="mt-0 pt-6 pb-6 mb-3 text-center container-md">
+            <h2 class="h1 mb-1">
+                <strong>Supercharge your data science efforts with 
+                    <span class="green">Anaconda</span>
+                </strong>.
+            </h2>
+            <span class="btn js-getStarted-button">Get Started</span>
+        </section>
+    </div>
     <footer class="globalFooter">
         <div class="container-lg pl-2 pr-2">
             <div class="row">
@@ -423,15 +555,15 @@
             </div>
         </div>
     </div>
-</footer>
-<div class="gdpr-banner">
-    <div class="container-lg flex-justify flex-center">
-        <div class="text-white">This website uses cookies to ensure you get the best experience on our website. 
-            <a aria-label="learn more about cookies" role="button" tabindex="0" href="/privacy-policy" rel="noopener noreferrer nofollow" target="_blank">Privacy Policy</a>
+    </footer>
+    <div class="gdpr-banner">
+        <div class="container-lg flex-justify flex-center">
+            <div class="text-white">This website uses cookies to ensure you get the best experience on our website. 
+                <a aria-label="learn more about cookies" role="button" tabindex="0" href="/privacy-policy" rel="noopener noreferrer nofollow" target="_blank">Privacy Policy</a>
+            </div>
+            <div class="js-gpdr-accept button-ui button-small ">Accept</div>
         </div>
-        <div class="js-gpdr-accept button-ui button-small ">Accept</div>
-    </div>
-</div>
-<script src="js/sandbox.js"></script>
+    </div> 
+    <script src="js/sandbox.js"></script>
 </body>
 </html>
