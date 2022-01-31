@@ -181,12 +181,18 @@ a{
         padding: 1.5em;
         color: #152442;
         background: #fff;}
+        .globalNav .nav-submenu a:hover{
+            background-color: #b3edc7;
+        }
     .globalNav .nav-submenu-small {
         width: 190px;}
     .globalNav .nav-submenu a svg {
         width: 30px;}
     .globalNav .nav-submenu-lg a {
     border-bottom: 1px solid #e4f5e5;}
+    .globalNav .nav-group:hover{
+        display: block;
+    }
 }
 .globalNav .nav-mobile-single{
     color: #0b2227;
