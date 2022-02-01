@@ -848,7 +848,7 @@ h6 {
 }
 .mobile-order-2 h2 .h1{
     font-weight: 200;
-    font-size: 3.4rem;
+    font-size: 22px;
 }
 .flex{
     flex:1;
@@ -865,8 +865,13 @@ h6 {
 .mt-2 .button-light {
     color: #008dd3;
     border: 3px solid #008dd3;
-    width: 120px;
 }
+.get{
+    width: 30px!important;
+}
+.get:hover{
+    background-color: #006ba0;
+    color:#fff;}
 .button-ui{
     border-radius: 25em;
     padding: 0.8em 2em;
