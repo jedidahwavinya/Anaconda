@@ -798,19 +798,26 @@ h3{
     align-items: flex-end;
     margin-top: 1.5em;
 }
-.module-card-cta, .module-card-cta-button {
+.module-card-cta{
     color: #006ba0;
     display: inline-block;
     transition: all .4s;
-}
-.module-card-cta {
-    border-bottom: 2px solid transparent;
     position: relative;
     padding-bottom: 3px;
 }
 .module-card-cta:hover{
-
+    border-bottom: 3px solid #006ba0;
+    color: #006ba0;
 }
+/* .module-card-cta::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: #48cfe7;
+} */
 /* The fifth section starts here */
 .background-dark{
     background-color: #111827;
@@ -910,6 +917,18 @@ img{
 .mb-4 {
     margin-bottom: 4em;
 }
+.pr-2{
+    padding-right: 2em;
+}
+.pl-2{
+    padding-left: 2em;
+}
+.pr-2 h6{
+    margin: 0;
+    text-transform: uppercase;
+    color: #6a7f93;
+    font-size: .8em;
+}
 .undermid{
     justify-content: space-between;
     display: flex;
@@ -917,11 +936,16 @@ img{
     flex-wrap: wrap;
     flex: 1;
 }
+.article:hover{
+    background-color: #006ba0;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 30%);
+    transition:(box-shadow .25s);
+
+}
 /* The seventh section starts here */
 .container-md {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 1em;
     position: relative;
     z-index: 5;
 }
@@ -1008,7 +1032,7 @@ a {
     margin-top: 1em;
 }
 .font-light {
-    font-weight: 300;
+    font-weight: 200;
 }
 .white{
     color: #fff;
@@ -1292,9 +1316,6 @@ h6 {
  /* responsiveness on the footer */
     .globalFooter {
         padding-bottom: 2em;
-        }
-    .globalFooter .container-lg.pl-2.pr-2 {
-        padding: 0;
         }
     .row{
        margin-left: 0;
