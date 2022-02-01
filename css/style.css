@@ -940,7 +940,14 @@ img{
     background-color: #006ba0;
     box-shadow: 0 3px 5px rgb(0 0 0 / 30%);
     transition:(box-shadow .25s);
-
+}
+.pr-2 .module-card-cta{
+    color: #006ba0;
+    display: inline-block;
+    transition: all .4s;
+}
+.pr-2 .module-card-cta:hover{
+    border-bottom: 2px solid #006ba0;
 }
 /* The seventh section starts here */
 .container-md {
