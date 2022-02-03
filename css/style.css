@@ -1127,7 +1127,25 @@ h6 {
     transition: all .2s;}
 
  /* adding responsiveness to the page */
-
+@media only screen and(min-width:0px) and(max-width:435px)
+{
+body{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.globalNav {
+    background: #fff;
+    position: relative;
+}
+.homelogo{
+    display: inline;
+    position: relative;
+    width: 120%;
+    height: 120%;
+}
+    
+}
 @media only screen and(min-width:0px) and(max-width:767px) {
     /* responsiveness to the header */
     .globalNav {
@@ -1138,7 +1156,10 @@ h6 {
         height: 90px;
         z-index:999}
     .homelogo{
-        display: inline;}
+        display: inline;
+        position: relative;
+        width: 100%;
+        height: 100%;}
     .globalNav .menu-burger{
         display: flex;
     }
@@ -1368,8 +1389,11 @@ h6 {
     .mt-1{
         margin-top: 0.66667em;
     }
-        
-        
+
+    /* responsiveness to the fifth section */
+.mobile-order-1 {
+    order: 1;
+}
 
  /* responsiveness on the footer */
     .globalFooter {
