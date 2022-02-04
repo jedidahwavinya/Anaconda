@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
     <link  rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body>
+<body class="homepage">
     <header class="globalNav">
         <div class="flex-justify container-lg">
             <div class="flex-justify-left">
@@ -160,11 +159,10 @@
                 </nav>
             </div>
             <div class="hide-device">
-                <div class="getStarted">
+                <div class="flex-center getStarted">
                     <span class="button-ui-new button-small js-getStarted-button" style="position: relative; top: -5px">Get Started</span>
                 </div>
-            </div>
-                
+            </div>                
         </div>
     </header>
     <div class="content-wrap" data-barba="container">
@@ -174,10 +172,10 @@
                 <div class="col-md-12 content-copy text-center mt-0 pb-6">
                     <div class="z-100">
                         <h1 class="pb-0" style="position: relative;margin-bottom:1.5em;">Data science technology for<br>
-                            <span class="headline-animated animate__animated animate__fadeOutDown" style="opacity: 0; transform: translate(0px, 15px);">groundbreaking research. </span>
-                            <span class="headline-animated animate__animated animate__fadeOutDown" style="opacity: 0; transform: translate(0px, 15px);">a competitive edge. </span>
-                            <span class="headline-animated animate__animated animate__fadeOutDown" style="opacity: 0; transform: translate(0px, 15px);">a better world. </span>
-                            <span class="headline-animated animate__animated animate__fadeOutDown" style="opacity: 1; transform: translate(0px, 0px);">human sensemaking. </span>
+                            <span class="headline-animated" style="opacity: 0; transform: translate(0px, 15px);">groundbreaking research. </span>
+                            <span class="headline-animated" style="opacity: 0; transform: translate(0px, 15px);">a competitive edge. </span>
+                            <span class="headline-animated" style="opacity: 0; transform: translate(0px, 15px);">a better world. </span>
+                            <span class="headline-animated" style="opacity: 1; transform: translate(0px, 0px);">human sensemaking. </span>
                         </h1>
                         <div class="hero-subhead text-lg container-sm mt-2 leading-normal" style="font-weight: 300;">
                             <p>A movement that brings together millions of data science practitioners,<br> data-driven enterprises, and the open source community.</p>
@@ -207,7 +205,7 @@
                 </div>
             </section>
             <!-- section two starts here -->
-            <section class="customer-logos mt-6 pb-2 mb-0">
+            <section class="sectiontwo customer-logos mt-6 pb-2 mb-0">
                 <div class="container-lg flex-justify">
                     <div class="customer-logo logo-Cisco" style="background-image: url( https://cdn2.assets-servd.host/voracious-blesbok/production/Customers/cisco.svg);">
                     </div>
@@ -436,7 +434,7 @@
                     <h2 class=" mb-1">Recent Articles</h2>
                     <div class="undermid mb-4">
                         <a href="https://www.anaconda.com/blog/an-update-on-the-apache-log4j-vulnerability" class="module-card module-card-x3 module-card-pa-0">
-                            <div class="module-card-thumbnail" style="background-image:url(images/Anaconda-Logo-Blog.png">
+                            <div class="module-card-thumbnail" style="background-image:url(images/Anaconda-Logo-Blog.png);">
                             </div>
                             <div class="pt-2 text-left pb-2 pl-2 pr-2 ">
                                 <h6 class="">For Practitioners</h6>
@@ -448,7 +446,7 @@
                             </div>
                         </a>
                         <a href="https://www.anaconda.com/blog/5-expert-predictions-for-ai-ml-and-data-science-in-2022" class="module-card module-card-x3 module-card-pa-0">
-                            <div class="module-card-thumbnail" style="background-image:url(images/long-term-support-blog.jpg"></div>
+                            <div class="module-card-thumbnail" style="background-image:url(images/long-term-support-blog.jpg);"></div>
                             <div class="pt-2 text-left pb-2 pl-2 pr-2 ">
                                 <h6 class="">News</h6>
                                 <div class="title text-lg font-light">Anaconda is Launching Long-Term Support
@@ -459,7 +457,7 @@
                             </div>
                         </a>
                         <a href="https://www.anaconda.com/blog/what-does-it-mean-to-be-a-data-scientist" class="module-card module-card-x3 module-card-pa-0">
-                            <div class="module-card-thumbnail" style="background-image:url(images/Anaconda-Community-blog-post.png"></div>
+                            <div class="module-card-thumbnail" style="background-image:url(images/Anaconda-Community-blog-post.png);"></div>
                             <div class="pt-2 text-left pb-2 pl-2 pr-2 ">
                                 <h6 class="">Anaconda Perspectives</h6>
                                 <div class="title text-lg font-light">What Does It Mean to Be a Data Scientist?
@@ -573,9 +571,9 @@
     <div class="gdpr-banner">
         <div class="container-lg flex-justify flex-center">
             <div class="text-white">This website uses cookies to ensure you get the best experience on our website. 
-                <a aria-label="learn more about cookies" role="button" tabindex="0" href="/privacy-policy" rel="noopener noreferrer nofollow" target="_blank">Privacy Policy</a>
+                <a aria-label="learn more about cookies" role="button" href="/privacy-policy" rel="noopener noreferrer nofollow">Privacy Policy</a>
             </div>
-            <div class="js-gpdr-accept button-ui button-small ">Accept</div>
+            <div role="button" onclick="myFunction()" class="js-gpdr-accept button-ui button-small">Accept</div>
         </div>
     </div> 
     <script src="js/sandbox.js"></script>
